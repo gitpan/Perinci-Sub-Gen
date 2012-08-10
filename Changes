@@ -1,0 +1,8 @@
+Revision history for Perinci-Sub-Gen
+
+0.01     2011-08-10 (SHARYANTO)
+
+         First release. Split to avoid circular dependency problem of Perinci ->
+         Setup::Symlink -> Perinci::Sub::Gen::Undoable -> Perinci::Sub::Gen (in
+         Perinci-Sub-Gen-AccessTable -> Perinci::CmdLine -> Perinci::Access (in
+         Perinci)). Boy, dependency is hard. :)
